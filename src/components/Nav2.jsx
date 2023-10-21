@@ -1,7 +1,6 @@
 import { Disclosure } from "@headlessui/react";
-// import { ChevronUpIcon } from '@heroicons/react/20/solid';
 import React from "react";
-import { IoIosArrowDown } from "react-icons/Io";
+import { MdKeyboardArrowDown } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { AnimationXaxis } from "../wrapper/AnimationXaxis";
 
@@ -22,7 +21,7 @@ const Nav2 = () => {
                 <>
                   <Disclosure.Button className="flex w-full justify-between mr-5 hover:text-gray-200 border-b">
                     <span>About Us</span>
-                    <IoIosArrowDown
+                    <MdKeyboardArrowDown
                       className={`${
                         open ? "rotate-180 transform" : ""
                       } h-5 w-5 text-gray-100`}
