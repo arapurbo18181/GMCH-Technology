@@ -1,4 +1,4 @@
-import Carousel from "better-react-carousel";
+// import Carousel from "better-react-carousel";
 import React, { useCallback } from "react"; // requires a loader
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
@@ -47,7 +47,7 @@ export const About = () => {
           </div>
         </div>
         <div className="flex-[1]">
-          <AnimationWrapper>
+          {/* <AnimationWrapper>
             <Carousel
               cols={1}
               rows={1}
@@ -56,7 +56,6 @@ export const About = () => {
               autoplay={3000}
               showDots={true}
             >
-              {/* Carousel items */}
               <Carousel.Item>
                 <div className="pb-4 w-full rounded-lg shadow-lg bg-gray-50">
                   <a className="block relative h-60 rounded overflow-hidden">
@@ -124,9 +123,8 @@ export const About = () => {
                   </div>
                 </div>
               </Carousel.Item>
-              {/* Add more Carousel.Item components for additional items */}
             </Carousel>
-          </AnimationWrapper>
+          </AnimationWrapper> */}
         </div>
       </div>
       <Particles
