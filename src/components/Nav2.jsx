@@ -1,4 +1,7 @@
+import { Disclosure } from "@headlessui/react";
+// import { ChevronUpIcon } from '@heroicons/react/20/solid';
 import React from "react";
+import { IoIosArrowDown } from "react-icons/Io";
 import { Link } from "react-router-dom";
 import { AnimationXaxis } from "../wrapper/AnimationXaxis";
 
@@ -14,9 +17,40 @@ const Nav2 = () => {
             <Link to={"/"} className="mr-5 hover:text-gray-200 border-b w-full">
               Home
             </Link>
-            <Link to={"/"} className="mr-5 hover:text-gray-200 border-b w-full">
-              About Us
-            </Link>
+            <Disclosure>
+              {({ open }) => (
+                <>
+                  <Disclosure.Button className="flex w-full justify-between mr-5 hover:text-gray-200 border-b">
+                    <span>About Us</span>
+                    <IoIosArrowDown
+                      className={`${
+                        open ? "rotate-180 transform" : ""
+                      } h-5 w-5 text-gray-100`}
+                    />
+                  </Disclosure.Button>
+                  <Disclosure.Panel className="px-4 pt-4 pb-2 w-full flex flex-col justify-start items-start space-y-3">
+                    <Link
+                      to={"/"}
+                      className="mr-5 hover:text-gray-200 hover:underline underline-offset-8 w-full"
+                    >
+                      1. GMCH technologies
+                    </Link>
+                    <Link
+                      to={"/"}
+                      className="mr-5 hover:text-gray-200 hover:underline underline-offset-8 w-full"
+                    >
+                      2. Board of directors
+                    </Link>
+                    <Link
+                      to={"/"}
+                      className="mr-5 hover:text-gray-200 hover:underline underline-offset-8 w-full"
+                    >
+                      3. Management team
+                    </Link>
+                  </Disclosure.Panel>
+                </>
+              )}
+            </Disclosure>
             <Link to={"/"} className="mr-5 hover:text-gray-200 border-b w-full">
               Services
             </Link>
