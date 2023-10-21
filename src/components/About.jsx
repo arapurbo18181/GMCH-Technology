@@ -26,19 +26,16 @@ export const About = () => {
                 our Company
               </h1>
               <p className="mb-8 leading-relaxed text-white xl:w-1/2">
-                Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-                air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-                park mlkshk tote bag selvage hot chicken authentic tumeric
-                truffaut hexagon try-hard chambray.
+              At [GMCH Technollogies], we're dedicated to bringing your digital dreams to life. We are not just a software house; we are your partners in innovation, design, and growth. Our passion lies in crafting exceptional digital experiences, and our expertise spans a spectrum of services, including web design, software development, graphics design, digital marketing, SEO, app design, and more. With a proven track record of delivering excellence, we pride ourselves on creating solutions that not only meet your needs but exceed your expectations...
               </p>
             </AnimationWrapper>
-            {/* <div className="flex justify-center">
+            <div className="flex justify-center">
               <AnimationWrapper>
-                <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                  Button
+                <button className="inline-flex text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 rounded text-lg transition-all duration-300">
+                  Read More
                 </button>
               </AnimationWrapper>
-            </div> */}
+            </div>
           </div>
           {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 relative">
           <AnimationWrapper>

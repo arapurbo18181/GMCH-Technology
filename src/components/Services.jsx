@@ -25,14 +25,15 @@ export const Services = () => {
             <div className="pb-4 w-full rounded-lg shadow-lg bg-gray-50">
               <a className="block relative h-60 rounded overflow-hidden">
                 <img
-                  alt="Graphics design"
+                  alt="Web development"
                   className="object-cover object-center w-full h-full hover:scale-110 transition-all duration-300"
-                  src="https://i.pinimg.com/originals/e2/af/bc/e2afbcf69e3ca5fae84905ae24d7aea9.jpg"
+                  // src="https://i.pinimg.com/originals/e2/af/bc/e2afbcf69e3ca5fae84905ae24d7aea9.jpg"
+                  src="https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg"
                 />
               </a>
               <div className="mt-4 mx-4">
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Graphics design
+                Web development
                 </h2>
                 <div className="flex justify-start items-end space-x-1">
                   <p className="text-red-600 font-semibold text-lg">$16.00</p>
@@ -45,34 +46,14 @@ export const Services = () => {
             <div className="pb-4 w-full rounded-lg shadow-lg bg-gray-50">
               <a className="block relative h-60 rounded overflow-hidden">
                 <img
-                  alt="Web design"
-                  className="object-cover object-center w-full h-full hover:scale-110 transition-all duration-300"
-                  src="https://img.freepik.com/free-photo/web-design-concepts-with-blurred-background_1134-82.jpg"
-                />
-              </a>
-              <div className="mt-4 mx-4">
-                <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Web design
-                </h2>
-                <div className="flex justify-start items-end space-x-1">
-                  <p className="text-red-600 font-semibold text-lg">$16.00</p>
-                  <p className="text-sm line-through">$20.00</p>
-                </div>
-              </div>
-            </div>
-          </AnimationWrapper>
-          <AnimationWrapper>
-            <div className="pb-4 w-full rounded-lg shadow-lg bg-gray-50">
-              <a className="block relative h-60 rounded overflow-hidden">
-                <img
-                  alt="Software Development"
+                  alt="Software development"
                   className="object-cover object-center w-full h-full hover:scale-110 transition-all duration-300"
                   src="https://t4.ftcdn.net/jpg/02/67/52/49/360_F_267524919_wXbVQHR189pLVU06eQ85GGLnJMq2eJFR.jpg"
                 />
               </a>
               <div className="mt-4 mx-4">
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Software Development
+                Software development
                 </h2>
                 <div className="flex justify-start items-end space-x-1">
                   <p className="text-red-600 font-semibold text-lg">$16.00</p>
@@ -105,14 +86,14 @@ export const Services = () => {
             <div className="pb-4 w-full rounded-lg shadow-lg bg-gray-50">
               <a className="block relative h-60 rounded overflow-hidden">
                 <img
-                  alt="Graphics design"
+                  alt="SEO"
                   className="object-cover object-center w-full h-full hover:scale-110 transition-all duration-300"
-                  src="https://i.pinimg.com/originals/e2/af/bc/e2afbcf69e3ca5fae84905ae24d7aea9.jpg"
+                  src="https://c0.wallpaperflare.com/preview/345/723/808/search-engine-optimization-seo-digital-marketing-laptop.jpg"
                 />
               </a>
               <div className="mt-4 mx-4">
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Graphics design
+                  SEO
                 </h2>
                 <div className="flex justify-start items-end space-x-1">
                   <p className="text-red-600 font-semibold text-lg">$16.00</p>
@@ -125,14 +106,14 @@ export const Services = () => {
             <div className="pb-4 w-full rounded-lg shadow-lg bg-gray-50">
               <a className="block relative h-60 rounded overflow-hidden">
                 <img
-                  alt="Web design"
+                  alt="Digital marketing"
                   className="object-cover object-center w-full h-full hover:scale-110 transition-all duration-300"
-                  src="https://img.freepik.com/free-photo/web-design-concepts-with-blurred-background_1134-82.jpg"
+                  src="https://wallpapercave.com/wp/wp3950068.jpg"
                 />
               </a>
               <div className="mt-4 mx-4">
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Web design
+                Digital marketing
                 </h2>
                 <div className="flex justify-start items-end space-x-1">
                   <p className="text-red-600 font-semibold text-lg">$16.00</p>
@@ -145,34 +126,14 @@ export const Services = () => {
             <div className="pb-4 w-full rounded-lg shadow-lg bg-gray-50">
               <a className="block relative h-60 rounded overflow-hidden">
                 <img
-                  alt="Software Development"
+                  alt="Digital print"
                   className="object-cover object-center w-full h-full hover:scale-110 transition-all duration-300"
-                  src="https://t4.ftcdn.net/jpg/02/67/52/49/360_F_267524919_wXbVQHR189pLVU06eQ85GGLnJMq2eJFR.jpg"
+                  src="https://img.freepik.com/premium-vector/digital-printing-concept_23-2148483669.jpg"
                 />
               </a>
               <div className="mt-4 mx-4">
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Software Development
-                </h2>
-                <div className="flex justify-start items-end space-x-1">
-                  <p className="text-red-600 font-semibold text-lg">$16.00</p>
-                  <p className="text-sm line-through">$20.00</p>
-                </div>
-              </div>
-            </div>
-          </AnimationWrapper>
-          <AnimationWrapper>
-            <div className="pb-4 w-full rounded-lg shadow-lg bg-gray-50">
-              <a className="block relative h-60 rounded overflow-hidden">
-                <img
-                  alt="UI/UX Design"
-                  className="object-cover object-center w-full h-full hover:scale-110 transition-all duration-300"
-                  src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg?w=2000"
-                />
-              </a>
-              <div className="mt-4 mx-4">
-                <h2 className="text-gray-900 title-font text-lg font-medium">
-                  UI/UX Design
+                Digital print
                 </h2>
                 <div className="flex justify-start items-end space-x-1">
                   <p className="text-red-600 font-semibold text-lg">$16.00</p>
