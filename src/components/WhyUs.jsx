@@ -16,13 +16,7 @@ export const WhyUs = () => {
         <AnimationWrapper>
           <div className="w-full flex justify-center items-center">
             <p className="container border rounded-md p-2 leading-10 text-left tracking-wider bg-gray-50">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
-              vitae voluptates deleniti sunt excepturi sint libero deserunt
-              ducimus in cum error delectus quasi animi, blanditiis unde
-              repellendus ea voluptatibus ipsam reprehenderit explicabo sed
-              omnis facilis quas accusantium. Assumenda dolorem repudiandae
-              unde, delectus, cupiditate reprehenderit perspiciatis eaque eum
-              consequatur tempore sunt!
+            At GMCH Technologies, we're more than just a software house; we're your trusted partner in innovation and digital excellence. Our commitment to delivering exceptional solutions is unwavering, and we take pride in our unique approach to software design, web development, graphics design, digital marketing, SEO, app development, and more. What sets us apart is our unwavering dedication to our clients' success. We understand that the digital landscape is ever-evolving, and we thrive on adapting to the latest trends and technologies, ensuring your business stays ahead of the curve. With a team of seasoned professionals, creative designers, and tech-savvy developers, we craft digital experiences that are not just visually stunning but also functional and user-friendly. Our local expertise, combined with a global perspective, allows us to tailor solutions that meet the specific needs of businesses in Qatar. When you choose [GMCH Technologies], you choose innovation, reliability, and a partner that goes above and beyond to make your digital aspirations a reality. Explore our comprehensive range of services, browse our impressive portfolio, and experience the difference of partnering with a team that is genuinely dedicated to your success.
             </p>
           </div>
         </AnimationWrapper>

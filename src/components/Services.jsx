@@ -3,7 +3,7 @@ import { AnimationXaxis } from "../wrapper/AnimationXaxis";
 
 export const Services = () => {
   return (
-    <section className="text-gray-600 body-font text-center relative bg-gray-50">
+    <section id="services" className="text-gray-600 body-font text-center relative bg-gray-50">
       <div class="absolute top-10 left-20 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
       <div class="absolute top-20 right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
 

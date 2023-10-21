@@ -5,5 +5,6 @@ export * from "./Navbar.jsx";
 export * from "./Services.jsx";
 export * from "./Stats.jsx";
 export * from "./Team.jsx";
+export * from "./Welcome.jsx";
 export * from "./WhyUs.jsx";
 

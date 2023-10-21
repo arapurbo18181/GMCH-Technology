@@ -1,11 +1,19 @@
 // import Carousel from "better-react-carousel";
-import { Carousel } from "@material-tailwind/react";
-import React, { useCallback } from "react"; // requires a loader
+import { Button, Carousel } from "@material-tailwind/react";
+import React, { useCallback, useState } from "react"; // requires a loader
+import { Link } from "react-scroll";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
+import FreeConsult from "../modal/FreeConsult";
 import { AnimationWrapper } from "../wrapper";
 
 export const About = () => {
+  
+  let [isOpen, setIsOpen] = useState(false)
+
+  function closeModal() {
+    setIsOpen(false)
+  }
   const particlesInit = useCallback(async (engine) => {
     console.log(engine);
     // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
@@ -20,34 +28,38 @@ export const About = () => {
   return (
     <section className="text-gray-600 body-font relative flex justify-center items-center h-screen bg-gradient-to-tl from-[#181b90] to-[#0f1012]">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center flex-[2]">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center flex-[3]">
           <AnimationWrapper>
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-white">
-              Welcome to
-              <br className="hidden lg:inline-block" />
-              our Company
+              Our solutions are designed
             </h1>
             <p className="mb-8 leading-relaxed text-white">
-              At [GMCH Technollogies], we're dedicated to bringing your digital
-              dreams to life. We are not just a software house; we are your
-              partners in innovation, design, and growth. Our passion lies in
-              crafting exceptional digital experiences, and our expertise spans
-              a spectrum of services, including web design, software
-              development, graphics design, digital marketing, SEO, app design,
-              and more. With a proven track record of delivering excellence, we
-              pride ourselves on creating solutions that not only meet your
-              needs but exceed your expectations...
+              to be adaptable and future-proof, offering your business a solid
+              foundation for growth and long-term success.
             </p>
           </AnimationWrapper>
-          <div className="flex justify-center">
+          <div className="flex justify-center items-center space-x-5">
             <AnimationWrapper>
-              <button className="inline-flex text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 rounded text-lg transition-all duration-300">
-                Read More
-              </button>
+              <Link
+                to="services"
+                spy={true}
+                smooth={true}
+                duration={100}
+              >
+                <Button className="min-w-max hover:scale-110 bg-gray-900 text-gray-100 transition-all duration-300">
+                  Explore our services
+                </Button>
+              </Link>
             </AnimationWrapper>
+            <AnimationWrapper>
+              <Button onClick={()=>setIsOpen(true)} className="min-w-max hover:scale-110 bg-gray-900 text-gray-100 transition-all duration-300">
+                Book a free consultation
+              </Button>
+            </AnimationWrapper>
+            <FreeConsult closeModal={closeModal} isOpen={isOpen} />
           </div>
         </div>
-        <div className="flex-[1]">
+        <div className="flex-[0.5]">
           <AnimationWrapper>
             <Carousel
               loop={true}
