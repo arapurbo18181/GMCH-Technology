@@ -5,6 +5,7 @@ import { Link } from "react-scroll";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import FreeConsult from "../modal/FreeConsult";
+import TextSpan from "../utils/TextSpan.jsx";
 import { AnimationWrapper } from "../wrapper";
 
 export const About = () => {
@@ -25,13 +26,17 @@ export const About = () => {
   const particlesLoaded = useCallback(async (container) => {
     await console.log(container);
   }, []);
+  
+  const welcome = "Our solutions are designed".split("");
   return (
-    <section className="text-gray-600 body-font relative flex justify-center items-center h-screen bg-gradient-to-tl from-[#181b90] to-[#0f1012]">
+    <section className="text-gray-600 body-font relative flex justify-center items-center h-screen bg-gradient-to-tl from-[#811313] to-[#300101]">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center flex-[3]">
           <AnimationWrapper>
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-white">
-              Our solutions are designed
+            {welcome.map((letter, index) => {
+                return <TextSpan key={index} letter={letter} />;
+              })} 
             </h1>
             <p className="mb-8 leading-relaxed text-white">
               to be adaptable and future-proof, offering your business a solid
@@ -66,54 +71,6 @@ export const About = () => {
               autoplay={true}
               autoplayDelay={3000}
               className="rounded-xl"
-              // prevArrow={({ handlePrev }) => (
-              //   <IconButton
-              //     variant="text"
-              //     color="white"
-              //     size="lg"
-              //     onClick={handlePrev}
-              //     className="!absolute top-2/4 left-4 -translate-y-2/4"
-              //   >
-              //     <svg
-              //       xmlns="http://www.w3.org/2000/svg"
-              //       fill="none"
-              //       viewBox="0 0 24 24"
-              //       strokeWidth={2}
-              //       stroke="currentColor"
-              //       className="h-6 w-6"
-              //     >
-              //       <path
-              //         strokeLinecap="round"
-              //         strokeLinejoin="round"
-              //         d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
-              //       />
-              //     </svg>
-              //   </IconButton>
-              // )}
-              // nextArrow={({ handleNext }) => (
-              //   <IconButton
-              //     variant="text"
-              //     color="white"
-              //     size="lg"
-              //     onClick={handleNext}
-              //     className="!absolute top-2/4 !right-4 -translate-y-2/4"
-              //   >
-              //     <svg
-              //       xmlns="http://www.w3.org/2000/svg"
-              //       fill="none"
-              //       viewBox="0 0 24 24"
-              //       strokeWidth={2}
-              //       stroke="currentColor"
-              //       className="h-6 w-6"
-              //     >
-              //       <path
-              //         strokeLinecap="round"
-              //         strokeLinejoin="round"
-              //         d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
-              //       />
-              //     </svg>
-              //   </IconButton>
-              // )}
             >
               <div className="pb-4 w-full rounded-lg shadow-lg bg-gray-50">
                 <a className="block relative h-60 rounded overflow-hidden">
@@ -129,8 +86,8 @@ export const About = () => {
                     Web development
                   </h2>
                   <div className="flex justify-start items-end space-x-1">
-                    <p className="text-red-600 font-semibold text-lg">$16.00</p>
-                    <p className="text-sm line-through">$20.00</p>
+                  <p className="text-red-600 font-semibold text-lg">$300</p>
+                  <p className="text-sm line-through">$450</p>
                   </div>
                 </div>
               </div>
@@ -147,8 +104,8 @@ export const About = () => {
                     Software development
                   </h2>
                   <div className="flex justify-start items-end space-x-1">
-                    <p className="text-red-600 font-semibold text-lg">$16.00</p>
-                    <p className="text-sm line-through">$20.00</p>
+                  <p className="text-red-600 font-semibold text-lg">$450</p>
+                  <p className="text-sm line-through">$600</p>
                   </div>
                 </div>
               </div>
@@ -165,8 +122,8 @@ export const About = () => {
                     UI/UX Design
                   </h2>
                   <div className="flex justify-start items-end space-x-1">
-                    <p className="text-red-600 font-semibold text-lg">$16.00</p>
-                    <p className="text-sm line-through">$20.00</p>
+                  <p className="text-red-600 font-semibold text-lg">$300</p>
+                  <p className="text-sm line-through">$400</p>
                   </div>
                 </div>
               </div>

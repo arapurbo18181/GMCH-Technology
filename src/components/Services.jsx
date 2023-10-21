@@ -3,14 +3,20 @@ import { AnimationXaxis } from "../wrapper/AnimationXaxis";
 
 export const Services = () => {
   return (
-    <section id="services" className="text-gray-600 body-font text-center relative bg-gray-50">
+    <section
+      id="services"
+      className="text-gray-600 body-font text-center relative bg-gray-50"
+    >
       <div class="absolute top-10 left-20 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
       <div class="absolute top-20 right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
 
       <AnimationXaxis>
         <div class="flex flex-col text-center w-full space-y-5 relative">
-          <h2 className="underline underline-offset-8 text-3xl font-bold">
-          Limited Time Offers
+          <h2 className="text-3xl font-bold">
+            <span className="">Limited Time</span>{" "}
+            <span className="underline underline-offset-8 text-red-600">
+              Offers
+            </span>
           </h2>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
@@ -33,11 +39,11 @@ export const Services = () => {
               </a>
               <div className="mt-4 mx-4">
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                Web development
+                  Web Development
                 </h2>
                 <div className="flex justify-start items-end space-x-1">
-                  <p className="text-red-600 font-semibold text-lg">$16.00</p>
-                  <p className="text-sm line-through">$20.00</p>
+                  <p className="text-red-600 font-semibold text-lg">$300</p>
+                  <p className="text-sm line-through">$450</p>
                 </div>
               </div>
             </div>
@@ -53,11 +59,11 @@ export const Services = () => {
               </a>
               <div className="mt-4 mx-4">
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                Software development
+                  Software Development
                 </h2>
                 <div className="flex justify-start items-end space-x-1">
-                  <p className="text-red-600 font-semibold text-lg">$16.00</p>
-                  <p className="text-sm line-through">$20.00</p>
+                  <p className="text-red-600 font-semibold text-lg">$450</p>
+                  <p className="text-sm line-through">$600</p>
                 </div>
               </div>
             </div>
@@ -76,8 +82,8 @@ export const Services = () => {
                   UI/UX Design
                 </h2>
                 <div className="flex justify-start items-end space-x-1">
-                  <p className="text-red-600 font-semibold text-lg">$16.00</p>
-                  <p className="text-sm line-through">$20.00</p>
+                  <p className="text-red-600 font-semibold text-lg">$300</p>
+                  <p className="text-sm line-through">$400</p>
                 </div>
               </div>
             </div>
@@ -93,11 +99,11 @@ export const Services = () => {
               </a>
               <div className="mt-4 mx-4">
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  SEO
+                  SEO Service
                 </h2>
                 <div className="flex justify-start items-end space-x-1">
-                  <p className="text-red-600 font-semibold text-lg">$16.00</p>
-                  <p className="text-sm line-through">$20.00</p>
+                  <p className="text-red-600 font-semibold text-lg">$300</p>
+                  <p className="text-sm line-through">$400</p>
                 </div>
               </div>
             </div>
@@ -113,11 +119,11 @@ export const Services = () => {
               </a>
               <div className="mt-4 mx-4">
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                Digital marketing
+                  Digital Marketing
                 </h2>
                 <div className="flex justify-start items-end space-x-1">
-                  <p className="text-red-600 font-semibold text-lg">$16.00</p>
-                  <p className="text-sm line-through">$20.00</p>
+                  <p className="text-red-600 font-semibold text-lg">$300</p>
+                  <p className="text-sm line-through">$400</p>
                 </div>
               </div>
             </div>
@@ -133,11 +139,11 @@ export const Services = () => {
               </a>
               <div className="mt-4 mx-4">
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                Digital print
+                  Digital Print
                 </h2>
                 <div className="flex justify-start items-end space-x-1">
-                  <p className="text-red-600 font-semibold text-lg">$16.00</p>
-                  <p className="text-sm line-through">$20.00</p>
+                  <p className="text-red-600 font-semibold text-lg">$300</p>
+                  <p className="text-sm line-through">$400</p>
                 </div>
               </div>
             </div>

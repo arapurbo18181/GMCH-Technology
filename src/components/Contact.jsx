@@ -4,18 +4,21 @@ import { AnimationXaxis } from "../wrapper/AnimationXaxis";
 export const Contact = () => {
   return (
     <section className="text-gray-600 body-font relative text-center bg-gray-50">
-        <AnimationXaxis>
-      <div class="flex flex-col text-center w-full space-y-5">
-          <h2 className="underline underline-offset-8 text-3xl font-bold">
-            Contact Us
+      <AnimationXaxis>
+        <div class="flex flex-col text-center w-full space-y-5">
+          <h2 className="text-3xl font-bold">
+            <span className="">Contact </span>
+            <span className="underline underline-offset-8 text-red-600">
+              Us
+            </span>
           </h2>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
             laboriosam, natus incidunt cumque quas ipsam et corporis repellendus
             fugit delectus!
           </p>
-      </div>
-        </AnimationXaxis>
+        </div>
+      </AnimationXaxis>
       <AnimationWrapper>
         <div className="container px-5 py-12 mx-auto flex sm:flex-nowrap flex-wrap text-left">
           <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
@@ -32,8 +35,8 @@ export const Contact = () => {
                   ADDRESS
                 </h2>
                 <p className="mt-1">
-                  Photo booth tattooed prism, portland taiyaki hoodie neutra
-                  typewriter
+                  office # 1 basement at sherani plaza street 10 gouri
+                  town phase 5b
                 </p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -52,7 +55,7 @@ export const Contact = () => {
           </div>
           <div className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 space-y-3">
             <h2 className="text-gray-900 text-lg mb-1 font-semibold title-font">
-            Book a free consultation
+              Book a free consultation
             </h2>
             <div className="relative mb-4">
               <label htmlFor="name" className="leading-7 text-sm text-gray-600">

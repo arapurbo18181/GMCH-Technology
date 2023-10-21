@@ -1,12 +1,11 @@
-import { Menu, Transition } from '@headlessui/react';
-import { Fragment } from 'react';
+import { Menu, Transition } from "@headlessui/react";
+import { Fragment } from "react";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { Link } from "react-router-dom";
 import Logo from "../assets/logo.png";
 import Nav2 from "./Nav2";
 
 export const Navbar = () => {
-
   function EditInactiveIcon(props) {
     return (
       <svg
@@ -22,9 +21,9 @@ export const Navbar = () => {
           strokeWidth="2"
         />
       </svg>
-    )
+    );
   }
-  
+
   function EditActiveIcon(props) {
     return (
       <svg
@@ -40,9 +39,9 @@ export const Navbar = () => {
           strokeWidth="2"
         />
       </svg>
-    )
+    );
   }
-  
+
   function DuplicateInactiveIcon(props) {
     return (
       <svg
@@ -64,9 +63,9 @@ export const Navbar = () => {
           strokeWidth="2"
         />
       </svg>
-    )
+    );
   }
-  
+
   function DuplicateActiveIcon(props) {
     return (
       <svg
@@ -88,9 +87,9 @@ export const Navbar = () => {
           strokeWidth="2"
         />
       </svg>
-    )
+    );
   }
-  
+
   function ArchiveInactiveIcon(props) {
     return (
       <svg
@@ -119,9 +118,9 @@ export const Navbar = () => {
         />
         <path d="M8 12H12" stroke="#A78BFA" strokeWidth="2" />
       </svg>
-    )
+    );
   }
-  
+
   function ArchiveActiveIcon(props) {
     return (
       <svg
@@ -150,9 +149,9 @@ export const Navbar = () => {
         />
         <path d="M8 12H12" stroke="#A78BFA" strokeWidth="2" />
       </svg>
-    )
+    );
   }
-  
+
   function MoveInactiveIcon(props) {
     return (
       <svg
@@ -165,9 +164,9 @@ export const Navbar = () => {
         <path d="M16 4L8 12" stroke="#A78BFA" strokeWidth="2" />
         <path d="M8 6H4V16H14V12" stroke="#A78BFA" strokeWidth="2" />
       </svg>
-    )
+    );
   }
-  
+
   function MoveActiveIcon(props) {
     return (
       <svg
@@ -180,9 +179,9 @@ export const Navbar = () => {
         <path d="M16 4L8 12" stroke="#C4B5FD" strokeWidth="2" />
         <path d="M8 6H4V16H14V12" stroke="#C4B5FD" strokeWidth="2" />
       </svg>
-    )
+    );
   }
-  
+
   function DeleteInactiveIcon(props) {
     return (
       <svg
@@ -203,9 +202,9 @@ export const Navbar = () => {
         <path d="M3 6H17" stroke="#A78BFA" strokeWidth="2" />
         <path d="M8 6V4H12V6" stroke="#A78BFA" strokeWidth="2" />
       </svg>
-    )
+    );
   }
-  
+
   function DeleteActiveIcon(props) {
     return (
       <svg
@@ -226,7 +225,7 @@ export const Navbar = () => {
         <path d="M3 6H17" stroke="#C4B5FD" strokeWidth="2" />
         <path d="M8 6V4H12V6" stroke="#C4B5FD" strokeWidth="2" />
       </svg>
-    )
+    );
   }
 
   return (
@@ -263,37 +262,36 @@ export const Navbar = () => {
                   <Menu.Items className="absolute right-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                     <div className="px-1 py-1 ">
                       <Menu.Item>
-                          <button
-                            className={`text-gray-900 group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                          >
-                            GMCH technologies
-                          </button>
-                      </Menu.Item>
-                    </div>
-                    <div className='px-1 py-1'>
-                    <Menu.Item>
-                          <button
-                            className={`text-gray-900 group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                          >
-                            Board of directors
-                          </button>
+                        <button
+                          className={`text-gray-900 group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                        >
+                          GMCH technologies
+                        </button>
                       </Menu.Item>
                     </div>
                     <div className="px-1 py-1">
-                      
-                    <Menu.Item>
-                          <button
-                            className={`text-gray-900 group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                          >
-                            Management team
-                          </button>
+                      <Menu.Item>
+                        <button
+                          className={`text-gray-900 group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                        >
+                          Board of directors
+                        </button>
+                      </Menu.Item>
+                    </div>
+                    <div className="px-1 py-1">
+                      <Menu.Item>
+                        <button
+                          className={`text-gray-900 group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                        >
+                          Management team
+                        </button>
                       </Menu.Item>
                     </div>
                   </Menu.Items>
                 </Transition>
               </Menu>
             </div>
-            <Link to={"/"} className="mr-5 hover:text-gray-800 border-b w-full">
+            <Link to={"/services"} className="mr-5 hover:text-gray-800 border-b w-full">
               Services
             </Link>
             <Link to={"/"} className="mr-5 hover:text-gray-800 border-b w-full">

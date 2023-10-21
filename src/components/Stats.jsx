@@ -9,8 +9,11 @@ export const Stats = () => {
     <section className="text-gray-600 body-font text-center space-y-10 bg-gray-50">
       <AnimationXaxis>
         <div class="flex flex-col text-center w-full space-y-5">
-          <h2 className="underline underline-offset-8 text-3xl font-bold">
-            Company Facts
+          <h2 className="text-3xl font-bold">
+            <span className="">Company </span>
+            <span className="underline underline-offset-8 text-red-600">
+              Facts
+            </span>
           </h2>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt

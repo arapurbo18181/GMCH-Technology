@@ -8,8 +8,11 @@ export const Team = () => {
       <div class="container px-5 mx-auto relative">
         <AnimationXaxis>
           <div class="flex flex-col text-center w-full mb-20 space-y-5">
-            <h2 className="underline underline-offset-8 text-3xl font-bold">
-              Our Team
+            <h2 className="text-3xl font-bold">
+              <span className="">Our </span>
+              <span className="underline underline-offset-8 text-red-600">
+                Team
+              </span>
             </h2>
             <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
