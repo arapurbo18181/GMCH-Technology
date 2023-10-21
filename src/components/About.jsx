@@ -16,7 +16,7 @@ export const About = () => {
     await console.log(container);
   }, []);
   return (
-      <section className="text-gray-600 body-font relative flex justify-center items-center h-screen bg-black">
+      <section className="text-gray-600 body-font relative flex justify-center items-center h-screen bg-gradient-to-tl from-[#181b90] to-[#0f1012]">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <AnimationWrapper>
@@ -87,14 +87,14 @@ export const About = () => {
               },
               particles: {
                 color: {
-                  value: "#0000FF",
+                  value: "#808080",
                   opacity: 0.3,
                 },
                 links: {
-                  color: "#0000FF",
+                  color: "#ffffff",
                   distance: 150,
                   enable: true,
-                  opacity: 0.8,
+                  opacity: 0.7,
                   width: 1,
                 },
                 collisions: {
