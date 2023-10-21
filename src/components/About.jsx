@@ -1,6 +1,5 @@
-import React, { useCallback } from "react";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import Carousel from "better-react-carousel";
+import React, { useCallback } from "react"; // requires a loader
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import { AnimationWrapper } from "../wrapper";
@@ -49,62 +48,83 @@ export const About = () => {
         </div>
         <div className="flex-[1]">
           <AnimationWrapper>
-            <Carousel autoPlay>
-              <div className="pb-4 w-full rounded-lg shadow-lg bg-gray-50">
-                <a className="block relative h-60 rounded overflow-hidden">
-                  <img
-                    alt="Web development"
-                    className="object-cover object-center w-full h-full hover:scale-110 transition-all duration-300"
-                    // src="https://i.pinimg.com/originals/e2/af/bc/e2afbcf69e3ca5fae84905ae24d7aea9.jpg"
-                    src="https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg"
-                  />
-                </a>
-                <div className="mt-4 mx-4">
-                  <h2 className="text-gray-900 title-font text-lg font-medium">
-                    Web development
-                  </h2>
-                  <div className="flex justify-start items-end space-x-1">
-                    <p className="text-red-600 font-semibold text-lg">$16.00</p>
-                    <p className="text-sm line-through">$20.00</p>
+            <Carousel
+              cols={1}
+              rows={1}
+              gap={10}
+              loop={true}
+              autoplay={3000}
+              showDots={true}
+            >
+              {/* Carousel items */}
+              <Carousel.Item>
+                <div className="pb-4 w-full rounded-lg shadow-lg bg-gray-50">
+                  <a className="block relative h-60 rounded overflow-hidden">
+                    <img
+                      alt="Web development"
+                      className="object-cover object-center w-full h-full hover:scale-110 transition-all duration-300"
+                      // src="https://i.pinimg.com/originals/e2/af/bc/e2afbcf69e3ca5fae84905ae24d7aea9.jpg"
+                      src="https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg"
+                    />
+                  </a>
+                  <div className="mt-4 mx-4">
+                    <h2 className="text-gray-900 title-font text-lg font-medium">
+                      Web development
+                    </h2>
+                    <div className="flex justify-start items-end space-x-1">
+                      <p className="text-red-600 font-semibold text-lg">
+                        $16.00
+                      </p>
+                      <p className="text-sm line-through">$20.00</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="pb-4 w-full rounded-lg shadow-lg bg-gray-50">
-                <a className="block relative h-60 rounded overflow-hidden">
-                  <img
-                    alt="Software development"
-                    className="object-cover object-center w-full h-full hover:scale-110 transition-all duration-300"
-                    src="https://t4.ftcdn.net/jpg/02/67/52/49/360_F_267524919_wXbVQHR189pLVU06eQ85GGLnJMq2eJFR.jpg"
-                  />
-                </a>
-                <div className="mt-4 mx-4">
-                  <h2 className="text-gray-900 title-font text-lg font-medium">
-                    Software development
-                  </h2>
-                  <div className="flex justify-start items-end space-x-1">
-                    <p className="text-red-600 font-semibold text-lg">$16.00</p>
-                    <p className="text-sm line-through">$20.00</p>
+              </Carousel.Item>
+              <Carousel.Item>
+                <div className="pb-4 w-full rounded-lg shadow-lg bg-gray-50">
+                  <a className="block relative h-60 rounded overflow-hidden">
+                    <img
+                      alt="Software development"
+                      className="object-cover object-center w-full h-full hover:scale-110 transition-all duration-300"
+                      src="https://t4.ftcdn.net/jpg/02/67/52/49/360_F_267524919_wXbVQHR189pLVU06eQ85GGLnJMq2eJFR.jpg"
+                    />
+                  </a>
+                  <div className="mt-4 mx-4">
+                    <h2 className="text-gray-900 title-font text-lg font-medium">
+                      Software development
+                    </h2>
+                    <div className="flex justify-start items-end space-x-1">
+                      <p className="text-red-600 font-semibold text-lg">
+                        $16.00
+                      </p>
+                      <p className="text-sm line-through">$20.00</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="pb-4 w-full rounded-lg shadow-lg bg-gray-50">
-                <a className="block relative h-60 rounded overflow-hidden">
-                  <img
-                    alt="UI/UX Design"
-                    className="object-cover object-center w-full h-full hover:scale-110 transition-all duration-300"
-                    src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg?w=2000"
-                  />
-                </a>
-                <div className="mt-4 mx-4">
-                  <h2 className="text-gray-900 title-font text-lg font-medium">
-                    UI/UX Design
-                  </h2>
-                  <div className="flex justify-start items-end space-x-1">
-                    <p className="text-red-600 font-semibold text-lg">$16.00</p>
-                    <p className="text-sm line-through">$20.00</p>
+              </Carousel.Item>
+              <Carousel.Item>
+                <div className="pb-4 w-full rounded-lg shadow-lg bg-gray-50">
+                  <a className="block relative h-60 rounded overflow-hidden">
+                    <img
+                      alt="UI/UX Design"
+                      className="object-cover object-center w-full h-full hover:scale-110 transition-all duration-300"
+                      src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg?w=2000"
+                    />
+                  </a>
+                  <div className="mt-4 mx-4">
+                    <h2 className="text-gray-900 title-font text-lg font-medium">
+                      UI/UX Design
+                    </h2>
+                    <div className="flex justify-start items-end space-x-1">
+                      <p className="text-red-600 font-semibold text-lg">
+                        $16.00
+                      </p>
+                      <p className="text-sm line-through">$20.00</p>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </Carousel.Item>
+              {/* Add more Carousel.Item components for additional items */}
             </Carousel>
           </AnimationWrapper>
         </div>
