@@ -87,14 +87,14 @@ export const About = () => {
               },
               particles: {
                 color: {
-                  value: "#808080",
+                  value: "#0000FF",
                   opacity: 0.3,
                 },
                 links: {
-                  color: "#ffffff",
+                  color: "#0000FF",
                   distance: 150,
                   enable: true,
-                  opacity: 0.7,
+                  opacity: 0.8,
                   width: 1,
                 },
                 collisions: {
