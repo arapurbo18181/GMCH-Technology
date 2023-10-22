@@ -33,7 +33,6 @@ export const Services = () => {
                 <img
                   alt="Web development"
                   className="object-cover object-center w-full h-full hover:scale-110 transition-all duration-300"
-                  // src="https://i.pinimg.com/originals/e2/af/bc/e2afbcf69e3ca5fae84905ae24d7aea9.jpg"
                   src="https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg"
                 />
               </a>
@@ -64,6 +63,26 @@ export const Services = () => {
                 <div className="flex justify-start items-end space-x-1">
                   <p className="text-red-600 font-semibold text-lg">$450</p>
                   <p className="text-sm line-through">$600</p>
+                </div>
+              </div>
+            </div>
+          </AnimationWrapper>
+          <AnimationWrapper>
+            <div className="pb-4 w-full rounded-lg shadow-lg bg-gray-50">
+              <a className="block relative h-60 rounded overflow-hidden">
+                <img
+                  alt="DevOps Service"
+                  className="object-cover object-center w-full h-full hover:scale-110 transition-all duration-300"
+                  src="https://img.freepik.com/free-vector/gradient-devops-illustration_23-2149370941.jpg"
+                />
+              </a>
+              <div className="mt-4 mx-4">
+                <h2 className="text-gray-900 title-font text-lg font-medium">
+                  DevOps Service
+                </h2>
+                <div className="flex justify-start items-end space-x-1">
+                  <p className="text-red-600 font-semibold text-lg">$600</p>
+                  <p className="text-sm line-through">$900</p>
                 </div>
               </div>
             </div>
@@ -104,6 +123,26 @@ export const Services = () => {
                 <div className="flex justify-start items-end space-x-1">
                   <p className="text-red-600 font-semibold text-lg">$300</p>
                   <p className="text-sm line-through">$400</p>
+                </div>
+              </div>
+            </div>
+          </AnimationWrapper>
+          <AnimationWrapper>
+            <div className="pb-4 w-full rounded-lg shadow-lg bg-gray-50">
+              <a className="block relative h-60 rounded overflow-hidden">
+                <img
+                  alt="Graphics Design"
+                  className="object-cover object-center w-full h-full hover:scale-110 transition-all duration-300"
+                  src="https://i.pinimg.com/originals/e2/af/bc/e2afbcf69e3ca5fae84905ae24d7aea9.jpg"
+                />
+              </a>
+              <div className="mt-4 mx-4">
+                <h2 className="text-gray-900 title-font text-lg font-medium">
+                Graphics Design
+                </h2>
+                <div className="flex justify-start items-end space-x-1">
+                  <p className="text-red-600 font-semibold text-lg">$200</p>
+                  <p className="text-sm line-through">$300</p>
                 </div>
               </div>
             </div>

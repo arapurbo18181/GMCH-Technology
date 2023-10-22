@@ -16,9 +16,7 @@ export const Stats = () => {
             </span>
           </h2>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            laboriosam, natus incidunt cumque quas ipsam et corporis repellendus
-            fugit delectus!
+          Dream Big, Achieve More
           </p>
         </div>
       </AnimationXaxis>

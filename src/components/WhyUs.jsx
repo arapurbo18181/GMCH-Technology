@@ -1,10 +1,15 @@
 import { Button } from "@material-tailwind/react";
-import React from "react";
+import React, { useState } from "react";
 import Whyus from "../assets/whyus.jpg";
 import { AnimationWrapper } from "../wrapper";
 import { AnimationXaxis } from "../wrapper/AnimationXaxis";
 
 export const WhyUs = () => {
+  const [expanded, setExpanded] = useState(false);
+
+  const toggleReadMore = () => {
+    setExpanded(!expanded);
+  };
   return (
     <section className="flex justify-center items-center w-full">
       <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-wrap justify-center items-stretch space-x-5 w-full container ">
@@ -21,7 +26,11 @@ export const WhyUs = () => {
           </AnimationXaxis>
           <AnimationWrapper>
             <div className="w-full flex flex-col justify-center items-start flex-grow px-5 py-4">
-              <p className="container py-2 leading-8 text-left tracking-wider bg-gray-50">
+              <p
+                className={`container py-2 leading-8 text-left tracking-wider bg-gray-50 ${
+                  expanded ? "block" : "line-clamp-6"
+                } `}
+              >
                 At GMCH Technologies, we're more than just a software house;
                 we're your trusted partner in innovation and digital excellence.
                 Our commitment to delivering exceptional solutions is
@@ -44,19 +53,16 @@ export const WhyUs = () => {
                 experience the difference of partnering with a team that is
                 genuinely dedicated to your success.
               </p>
-              <Button>
-                Read More
+              <Button onClick={toggleReadMore}>
+                {expanded ? "Read Less" : "Read More"}
               </Button>
             </div>
           </AnimationWrapper>
         </div>
         <div className="flex-1 border rounded-lg overflow-hidden hover:scale-[1.03] transition-all duration-500 relative">
-            <div className="h-full">
-              <img
-                src={Whyus}
-                alt=""
-                className="h-full w-full object-cover "
-              />
+          <AnimationWrapper>
+            <div className={`${expanded ? "h-full" : "h-[400px]"} `}>
+              <img src={Whyus} alt="" className="h-full w-full object-cover " />
             </div>
             <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-center items-start px-5 py-10 space-y-5 hover:bg-opacity-95 transition-all duration-300 group">
               <h5 className="text-white text-3xl font-bold">
@@ -67,6 +73,7 @@ export const WhyUs = () => {
                 Book a free consultaion
               </Button>
             </div>
+          </AnimationWrapper>
         </div>
       </div>
     </section>

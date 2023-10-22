@@ -243,7 +243,7 @@ export const Navbar = () => {
               <Menu as="div" className="relative inline-block text-left">
                 <div>
                   <Menu.Button className="inline-flex min-w-max justify-center rounded-md px-4 py-2 font-medium text-gray-900 text-xl focus:outline-none">
-                    About Us
+                    <Link to={"/about"}>About Us</Link>
                     <MdKeyboardArrowDown
                       className="ml-1 -mr-1 mt-1 h-5 w-5 text-violet-200 hover:text-violet-100"
                       aria-hidden="true"
@@ -291,7 +291,10 @@ export const Navbar = () => {
                 </Transition>
               </Menu>
             </div>
-            <Link to={"/services"} className="mr-5 hover:text-gray-800 border-b w-full">
+            <Link
+              to={"/services"}
+              className="mr-5 hover:text-gray-800 border-b w-full"
+            >
               Services
             </Link>
             <Link to={"/"} className="mr-5 hover:text-gray-800 border-b w-full">
