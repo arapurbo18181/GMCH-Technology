@@ -2,12 +2,20 @@ import { Button, Carousel } from "@material-tailwind/react";
 import React from "react";
 import Blog from "../assets/blog.png";
 import Cms from "../assets/cms.jpg";
+import Database from "../assets/database.png";
 import Ecommerce from "../assets/ecommerce.png";
 import Education from "../assets/education.jpg";
+import Financial from "../assets/financial.png";
 import Forum from "../assets/forum.jpg";
+import Game from "../assets/game.png";
+import MobileApp from "../assets/mobileApp.png";
 import News from "../assets/news.jpg";
 import Portfolio from "../assets/portfolio.png";
+import Responsive from "../assets/responsive.jpg";
 import Social from "../assets/social.png";
+import User from "../assets/user.jpg";
+import UserResearch from "../assets/userResearch.jpg";
+import Visual from "../assets/visual.jpg";
 import WebApps from "../assets/webApps.jpg";
 import WelcomeImage from "../assets/welcome.jpg";
 import { AnimationWrapper } from "../wrapper/Animation";
@@ -316,27 +324,95 @@ const Services = () => {
               </div>
             </AnimationWrapper>
           </div>
-          <div className="flex-1 border rounded-lg overflow-hidden hover:scale-[1.03] transition-all duration-500 relative">
+          <div className="flex-1 border rounded-lg overflow-hidden transition-all duration-500 relative">
             <AnimationWrapper>
-              <div className="h-full">
-                <img
-                  src={WelcomeImage}
-                  alt=""
-                  className="h-full w-full object-cover"
-                />
-              </div>
-              <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-center items-start px-5 py-10 space-y-5 hover:bg-opacity-95 transition-all duration-300 group">
-                <h5 className="text-white text-3xl font-bold">
-                  {" "}
-                  Need Software Development service?{" "}
-                </h5>
-                <p className="text-white">
-                  Book a free consultation with us now
-                </p>
-                <Button className="bg-red-600 group-hover:scale-105">
-                  Book a free consultaion
-                </Button>
-              </div>
+                <Carousel
+                  loop={true}
+                  autoplay={true}
+                  autoplayDelay={3000}
+                  className="rounded-xl h-full"
+                >
+                  <div className="relative">
+                    <div className="h-full">
+                      <img
+                        src={MobileApp}
+                        alt="MobileApp"
+                        className="h-full w-full object-contain"
+                      />
+                    </div>
+                    <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
+                      <h5 className="text-white text-3xl font-bold">
+                      Mobile App Development: 
+                      </h5>
+                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
+                      Creating applications for mobile devices, including iOS and Android platforms. This category includes native, hybrid, and progressive web app development.
+                      </p>
+                      <Button className="bg-red-600 group-hover:scale-105">
+                        Book a free consultaion
+                      </Button>
+                    </div>
+                  </div>
+                  <div className="relative">
+                    <div className="h-full">
+                      <img
+                        src={Game}
+                        alt="Game"
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+                    <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
+                      <h5 className="text-white text-3xl font-bold">
+                      Game Development: 
+                      </h5>
+                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
+                      Developing video games for various platforms, including PC, consoles, and mobile devices.
+                      </p>
+                      <Button className="bg-red-600 group-hover:scale-105">
+                        Book a free consultaion
+                      </Button>
+                    </div>
+                  </div>
+                  <div className="relative">
+                    <div className="h-full">
+                      <img
+                        src={Database}
+                        alt="Database"
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+                    <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
+                      <h5 className="text-white text-3xl font-bold">
+                      Database Development: 
+                      </h5>
+                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
+                      Designing and maintaining databases to manage and store data efficiently.
+                      </p>
+                      <Button className="bg-red-600 group-hover:scale-105">
+                        Book a free consultaion
+                      </Button>
+                    </div>
+                  </div>
+                  <div className="relative">
+                    <div className="h-full">
+                      <img
+                        src={Financial}
+                        alt="Financial"
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+                    <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
+                      <h5 className="text-white text-3xl font-bold">
+                      Financial Software Development: 
+                      </h5>
+                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
+                      Building software for banking, trading, and financial analysis.
+                      </p>
+                      <Button className="bg-red-600 group-hover:scale-105">
+                        Book a free consultaion
+                      </Button>
+                    </div>
+                  </div>
+                </Carousel>
             </AnimationWrapper>
           </div>
         </div>
@@ -373,27 +449,95 @@ const Services = () => {
               </div>
             </AnimationWrapper>
           </div>
-          <div className="flex-1 border rounded-lg overflow-hidden hover:scale-[1.03] transition-all duration-500 relative">
+          <div className="flex-1 border rounded-lg overflow-hidden transition-all duration-500 relative">
             <AnimationWrapper>
-              <div className="h-full">
-                <img
-                  src={WelcomeImage}
-                  alt=""
-                  className="h-full w-full object-cover"
-                />
-              </div>
-              <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-center items-start px-5 py-10 space-y-5 hover:bg-opacity-95 transition-all duration-300 group">
-                <h5 className="text-white text-3xl font-bold">
-                  {" "}
-                  Need UI/UX Design service?{" "}
-                </h5>
-                <p className="text-white">
-                  Book a free consultation with us now
-                </p>
-                <Button className="bg-red-600 group-hover:scale-105">
-                  Book a free consultaion
-                </Button>
-              </div>
+                <Carousel
+                  loop={true}
+                  autoplay={true}
+                  autoplayDelay={3000}
+                  className="rounded-xl h-full"
+                >
+                  <div className="relative">
+                    <div className="h-full">
+                      <img
+                        src={User}
+                        alt="User"
+                        className="h-full w-full object-contain"
+                      />
+                    </div>
+                    <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
+                      <h5 className="text-white text-3xl font-bold">
+                      User Journey Mapping: 
+                      </h5>
+                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
+                      Mapping out the entire user journey, including touchpoints and interactions.
+                      </p>
+                      <Button className="bg-red-600 group-hover:scale-105">
+                        Book a free consultaion
+                      </Button>
+                    </div>
+                  </div>
+                  <div className="relative">
+                    <div className="h-full">
+                      <img
+                        src={UserResearch}
+                        alt="UserResearch"
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+                    <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
+                      <h5 className="text-white text-3xl font-bold">
+                      User Research: 
+                      </h5>
+                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
+                      Conducting research to understand the target audience, their needs, goals, and pain points.
+                      </p>
+                      <Button className="bg-red-600 group-hover:scale-105">
+                        Book a free consultaion
+                      </Button>
+                    </div>
+                  </div>
+                  <div className="relative">
+                    <div className="h-full">
+                      <img
+                        src={Responsive}
+                        alt="Responsive"
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+                    <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
+                      <h5 className="text-white text-3xl font-bold">
+                      Responsive Design: 
+                      </h5>
+                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
+                      Ensuring that the user interface adapts to different screen sizes and devices, providing a consistent user experience.
+                      </p>
+                      <Button className="bg-red-600 group-hover:scale-105">
+                        Book a free consultaion
+                      </Button>
+                    </div>
+                  </div>
+                  <div className="relative">
+                    <div className="h-full">
+                      <img
+                        src={Visual}
+                        alt="Visual"
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+                    <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
+                      <h5 className="text-white text-3xl font-bold">
+                      Visual Design: 
+                      </h5>
+                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
+                      Creating the overall look and feel of the product, including color schemes, typography, icons, and graphics.
+                      </p>
+                      <Button className="bg-red-600 group-hover:scale-105">
+                        Book a free consultaion
+                      </Button>
+                    </div>
+                  </div>
+                </Carousel>
             </AnimationWrapper>
           </div>
         </div>
