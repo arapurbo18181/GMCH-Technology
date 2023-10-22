@@ -1,11 +1,16 @@
 import { Button, Carousel } from "@material-tailwind/react";
 import React from "react";
+import Afour from "../assets/a4.jpg";
+import Blankpage from "../assets/blankpage.jpg";
 import Blog from "../assets/blog.png";
+import Broprint from "../assets/broprint.jpg";
+import Busicard from "../assets/busicard.jpg";
 import Cms from "../assets/cms.jpg";
 import CompeAnalysis from "../assets/compeAnalysis.jpg";
 import Content from "../assets/content.jpg";
 import Database from "../assets/database.png";
 import Digimark from "../assets/digimark.jpg";
+import Docprint from "../assets/docprint.jpg";
 import Ecommerce from "../assets/ecommerce.png";
 import Education from "../assets/education.jpg";
 import Emailmark from "../assets/emailmark.jpg";
@@ -13,7 +18,9 @@ import Financial from "../assets/financial.png";
 import Forum from "../assets/forum.jpg";
 import Game from "../assets/game.png";
 import Influmark from "../assets/influmark.jpg";
+import Inviteprint from "../assets/inviteprint.jpg";
 import KeyResearch from "../assets/keyResearch.jpg";
+import Labelprint from "../assets/labelprint.jpg";
 import Link from "../assets/link.jpg";
 import LocalSeo from "../assets/localSeo.jpg";
 import Marketing from "../assets/marketing.jpg";
@@ -21,6 +28,7 @@ import MobileApp from "../assets/mobileApp.png";
 import Mobilemark from "../assets/mobilemark.jpg";
 import News from "../assets/news.jpg";
 import Portfolio from "../assets/portfolio.png";
+import Posterprint from "../assets/posterprint.jpg";
 import Ppcmark from "../assets/ppcmark.jpg";
 import Responsive from "../assets/responsive.jpg";
 import SeoReport from "../assets/seoReport.jpg";
@@ -962,27 +970,176 @@ const Services = () => {
               </div>
             </AnimationWrapper>
           </div>
-          <div className="flex-1 border rounded-lg overflow-hidden hover:scale-[1.03] transition-all duration-500 relative">
+          <div className="flex-1 border rounded-lg overflow-hidden transition-all duration-500 relative">
             <AnimationWrapper>
-              <div className="h-full">
-                <img
-                  src={WelcomeImage}
-                  alt=""
-                  className="h-full w-full object-cover"
-                />
-              </div>
-              <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-center items-start px-5 py-10 space-y-5 hover:bg-opacity-95 transition-all duration-300 group">
-                <h5 className="text-white text-3xl font-bold">
-                  {" "}
-                  Need Digital Print service?{" "}
-                </h5>
-                <p className="text-white">
-                  Book a free consultation with us now
-                </p>
-                <Button className="bg-red-600 group-hover:scale-105">
-                  Book a free consultaion
-                </Button>
-              </div>
+              
+            <Carousel
+                loop={true}
+                autoplay={true}
+                autoplayDelay={3000}
+                className="rounded-xl h-full"
+              >
+                <div className="relative">
+                  <div className="h-full">
+                    <img
+                      src={Docprint}
+                      alt="Docprint"
+                      className="h-full w-full object-contain"
+                    />
+                  </div>
+                  <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
+                    <h5 className="text-white text-3xl font-bold">
+                    Document Printing: 
+                    </h5>
+                    <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
+                    This includes printing of documents, reports, manuals, and any text-based materials.
+                    </p>
+                    <Button className="bg-red-600 group-hover:scale-105">
+                      Book a free consultaion
+                    </Button>
+                  </div>
+                </div>
+                <div className="relative">
+                  <div className="h-full">
+                    <img
+                      src={Busicard}
+                      alt="Busicard"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                  <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
+                    <h5 className="text-white text-3xl font-bold">
+                    Business Cards: 
+                    </h5>
+                    <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
+                    Design and printing of personalized business cards for individuals and companies.
+                    </p>
+                    <Button className="bg-red-600 group-hover:scale-105">
+                      Book a free consultaion
+                    </Button>
+                  </div>
+                </div>
+                <div className="relative">
+                  <div className="h-full">
+                    <img
+                      src={Broprint}
+                      alt="Broprint"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                  <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
+                    <h5 className="text-white text-3xl font-bold">
+                    Brochures and Flyers: 
+                    </h5>
+                    <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
+                    Creating and printing marketing materials, promotional brochures, and informational flyers.
+                    </p>
+                    <Button className="bg-red-600 group-hover:scale-105">
+                      Book a free consultaion
+                    </Button>
+                  </div>
+                </div>
+                <div className="relative">
+                  <div className="h-full">
+                    <img
+                      src={Posterprint}
+                      alt="Posterprint"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                  <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
+                    <h5 className="text-white text-3xl font-bold">
+                    Posters and Banners: 
+                    </h5>
+                    <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
+                    Printing large-format posters and banners for events, advertising, or decorations.
+                    </p>
+                    <Button className="bg-red-600 group-hover:scale-105">
+                      Book a free consultaion
+                    </Button>
+                  </div>
+                </div>
+                <div className="relative">
+                  <div className="h-full">
+                    <img
+                      src={Inviteprint}
+                      alt="Inviteprint"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                  <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
+                    <h5 className="text-white text-3xl font-bold">
+                    Invitations: 
+                    </h5>
+                    <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
+                    Design and printing of custom invitations for events such as weddings, parties, and corporate functions.
+                    </p>
+                    <Button className="bg-red-600 group-hover:scale-105">
+                      Book a free consultaion
+                    </Button>
+                  </div>
+                </div>
+                <div className="relative">
+                  <div className="h-full">
+                    <img
+                      src={Labelprint}
+                      alt="Labelprint"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                  <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
+                    <h5 className="text-white text-3xl font-bold">
+                    Labels and Stickers: 
+                    </h5>
+                    <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
+                    Printing labels and stickers for branding, packaging, or labeling purposes.
+                    </p>
+                    <Button className="bg-red-600 group-hover:scale-105">
+                      Book a free consultaion
+                    </Button>
+                  </div>
+                </div>
+                <div className="relative">
+                  <div className="h-full">
+                    <img
+                      src={Afour}
+                      alt="Afour"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                  <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
+                    {/* <h5 className="text-white text-3xl font-bold">
+                    Labels and Stickers: 
+                    </h5>
+                    <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
+                    Printing labels and stickers for branding, packaging, or labeling purposes.
+                    </p> */}
+                    <Button className="bg-red-600 group-hover:scale-105">
+                      Book a free consultaion
+                    </Button>
+                  </div>
+                </div>
+                <div className="relative">
+                  <div className="h-full">
+                    <img
+                      src={Blankpage}
+                      alt="Blankpage"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                  <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
+                    {/* <h5 className="text-white text-3xl font-bold">
+                    Labels and Stickers: 
+                    </h5>
+                    <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
+                    Printing labels and stickers for branding, packaging, or labeling purposes.
+                    </p> */}
+                    <Button className="bg-red-600 group-hover:scale-105">
+                      Book a free consultaion
+                    </Button>
+                  </div>
+                </div>
+              </Carousel>
             </AnimationWrapper>
           </div>
         </div>
