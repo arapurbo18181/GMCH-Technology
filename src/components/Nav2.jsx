@@ -20,7 +20,7 @@ const Nav2 = () => {
               {({ open }) => (
                 <>
                   <Disclosure.Button className="flex w-full justify-between mr-5 hover:text-gray-200 border-b">
-                    <span>About Us</span>
+                    <Link to={"/about"}>About Us</Link>
                     <MdKeyboardArrowDown
                       className={`${
                         open ? "rotate-180 transform" : ""
@@ -29,19 +29,19 @@ const Nav2 = () => {
                   </Disclosure.Button>
                   <Disclosure.Panel className="px-4 pt-4 pb-2 w-full flex flex-col justify-start items-start space-y-3">
                     <Link
-                      to={"/"}
+                      to={"/about"}
                       className="mr-5 hover:text-gray-200 hover:underline underline-offset-8 w-full"
                     >
                       1. GMCH technologies
                     </Link>
                     <Link
-                      to={"/"}
+                      to={"/about"}
                       className="mr-5 hover:text-gray-200 hover:underline underline-offset-8 w-full"
                     >
                       2. Board of directors
                     </Link>
                     <Link
-                      to={"/"}
+                      to={"/about"}
                       className="mr-5 hover:text-gray-200 hover:underline underline-offset-8 w-full"
                     >
                       3. Management team
@@ -50,10 +50,10 @@ const Nav2 = () => {
                 </>
               )}
             </Disclosure>
-            <Link to={"/"} className="mr-5 hover:text-gray-200 border-b w-full">
+            <Link to={"/services"} className="mr-5 hover:text-gray-200 border-b w-full">
               Services
             </Link>
-            <Link to={"/"} className="mr-5 hover:text-gray-200 border-b w-full">
+            <Link to={"/contact"} className="mr-5 hover:text-gray-200 border-b w-full">
               Contact
             </Link>
           </nav>

@@ -6,8 +6,8 @@ export const Footer = () => {
   return (
     <footer className="text-gray-600 body-font bg-gray-100 z-20 shadow">
       <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-        <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-          <div>
+        <div className="w-full md:w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left flex flex-col justify-center items-center md:justify-start md:items-start">
+          <div className="w-full flex justify-start items-center text-center">
             <img src={Logo} className="w-24" />
           </div>
           <p className="mt-2 text-sm text-gray-500">Dream Big, Achieve More</p>
@@ -17,15 +17,21 @@ export const Footer = () => {
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
               Social sites
             </h2>
-            <nav className="list-none mb-10 space-y-2">
+            <nav className="list-none mb-10 space-y-2 flex flex-col justify-center items-center md:items-start">
               <li className="text-blue-600">
-                <BsFacebook />
+                <a href="https://www.facebook.com/" target="_blank">
+                  <BsFacebook />
+                </a>
               </li>
               <li className="text-blue-500">
-                <BsTwitter />
+                <a href="https://twitter.com/?lang=en" target="_blank">
+                  <BsTwitter />
+                </a>
               </li>
               <li className="text-blue-800">
-                <AiFillLinkedin />
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <AiFillLinkedin />
+                </a>
               </li>
             </nav>
           </div>

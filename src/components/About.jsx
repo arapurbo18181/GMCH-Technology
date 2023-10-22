@@ -29,11 +29,11 @@ export const About = () => {
   
   const welcome = "Our solutions are designed".split("");
   return (
-    <section className="text-gray-600 body-font relative flex justify-center items-center h-screen bg-gradient-to-tl from-[#181b90] to-[#0f1012]">
-      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <section className="text-gray-600 body-font relative flex justify-center items-center min-h-screen bg-gradient-to-tl from-[#181b90] to-[#0f1012]">
+      <div className="container mx-auto flex px-5 mt-32 py-16 md:py-24 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center flex-[3]">
           <AnimationWrapper>
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-white">
+            <h1 className="title-font text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mb-4 font-bold text-white">
             {welcome.map((letter, index) => {
                 return <TextSpan key={index} letter={letter} />;
               })} 
@@ -43,7 +43,7 @@ export const About = () => {
               foundation for growth and long-term success.
             </p>
           </AnimationWrapper>
-          <div className="flex justify-center items-center space-x-5">
+          <div className="flex flex-col sm:flex-row sm:justify-center sm:items-center space-y-4 sm:space-y-0 sm:space-x-4">
             <AnimationWrapper>
               <Link
                 to="/services"
@@ -64,7 +64,7 @@ export const About = () => {
             <FreeConsult closeModal={closeModal} isOpen={isOpen} />
           </div>
         </div>
-        <div className="flex-[0.5]">
+        <div className="flex-[0.5] w-full">
           <AnimationWrapper>
             <Carousel
               loop={true}

@@ -67,10 +67,10 @@ const Services = () => {
         </h2>
       </div>
       <section className="flex justify-center items-center w-full">
-        <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-wrap justify-center items-stretch space-x-5 w-full container ">
-          <div className="flex-1 border flex flex-col space-y-10 rounded-lg">
+        <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-col md:flex-row flex-wrap justify-center items-stretch space-y-5 md:space-y-0 space-x-0 md:space-x-5 w-full container mx-auto">
+          <div className="flex-1 border flex flex-col space-y-10 rounded-lg w-full md:w-1/2 lg:w-1/3">
             <AnimationXaxis>
-              <h2 className="text-3xl font-bold h-10 mt-5">
+              <h2 className="text-lg md:text-xl lg:text-2xl font-bold mt-5">
                 <span className="">1. Web</span>{" "}
                 <span className="underline underline-offset-8 text-red-600">
                   Development
@@ -79,7 +79,7 @@ const Services = () => {
             </AnimationXaxis>
             <AnimationWrapper>
               <div className="w-full flex flex-col justify-center items-start flex-grow px-5 py-4">
-                <p className="container py-2 leading-8 text-left tracking-wider bg-gray-50">
+                <p className="py-2 leading-7 md:leading-8 text-left tracking-wider bg-gray-50">
                   We offer comprehensive web design and development services
                   that are tailored to meet the unique needs of your business.
                   Our team of experienced designers and developers work closely
@@ -98,7 +98,7 @@ const Services = () => {
               </div>
             </AnimationWrapper>
           </div>
-          <div className="flex-1 border rounded-lg overflow-hidden h-full">
+          <div className="flex-1 border rounded-lg overflow-hidden h-full w-full md:w-1/2 lg:w-2/3">
             <AnimationWrapper>
               <Carousel
                 loop={true}
@@ -327,7 +327,7 @@ const Services = () => {
         </div>
       </section>
       <section className="flex justify-center items-center w-full">
-        <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-wrap justify-center items-stretch space-x-5 w-full container ">
+        <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-col md:flex-row flex-wrap justify-center items-stretch space-y-5 md:space-y-0 space-x-0 md:space-x-5 w-full container mx-auto">
           <div className="flex-1 border flex flex-col space-y-10 rounded-lg">
             <AnimationXaxis>
               <h2 className="text-3xl font-bold h-10 mt-5">
@@ -446,7 +446,7 @@ const Services = () => {
         </div>
       </section>
       <section className="flex justify-center items-center w-full">
-        <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-wrap justify-center items-stretch space-x-5 w-full container ">
+        <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-col md:flex-row flex-wrap justify-center items-stretch space-y-5 md:space-y-0 space-x-0 md:space-x-5 w-full container mx-auto">
           <div className="flex-1 border flex flex-col space-y-10 rounded-lg">
             <AnimationXaxis>
               <h2 className="text-3xl font-bold h-10 mt-5">
@@ -499,7 +499,7 @@ const Services = () => {
         </div>
       </section>
       <section className="flex justify-center items-center w-full">
-        <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-wrap justify-center items-stretch space-x-5 w-full container ">
+        <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-col md:flex-row flex-wrap justify-center items-stretch space-y-5 md:space-y-0 space-x-0 md:space-x-5 w-full container mx-auto">
           <div className="flex-1 border flex flex-col space-y-10 rounded-lg">
             <AnimationXaxis>
               <h2 className="text-3xl font-bold h-10 mt-5">
@@ -623,7 +623,7 @@ const Services = () => {
         </div>
       </section>
       <section className="flex justify-center items-center w-full">
-        <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-wrap justify-center items-stretch space-x-5 w-full container ">
+        <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-col md:flex-row flex-wrap justify-center items-stretch space-y-5 md:space-y-0 space-x-0 md:space-x-5 w-full container mx-auto">
           <div className="flex-1 border flex flex-col space-y-10 rounded-lg">
             <AnimationXaxis>
               <h2 className="text-3xl font-bold h-10 mt-5">
@@ -814,7 +814,7 @@ const Services = () => {
         </div>
       </section>
       <section className="flex justify-center items-center w-full">
-        <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-wrap justify-center items-stretch space-x-5 w-full container ">
+        <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-col md:flex-row flex-wrap justify-center items-stretch space-y-5 md:space-y-0 space-x-0 md:space-x-5 w-full container mx-auto">
           <div className="flex-1 border flex flex-col space-y-10 rounded-lg">
             <AnimationXaxis>
               <h2 className="text-3xl font-bold h-10 mt-5">
@@ -1159,7 +1159,7 @@ const Services = () => {
         </div>
       </section>
       <section className="flex justify-center items-center w-full">
-        <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-wrap justify-center items-stretch space-x-5 w-full container ">
+        <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-col md:flex-row flex-wrap justify-center items-stretch space-y-5 md:space-y-0 space-x-0 md:space-x-5 w-full container mx-auto">
           <div className="flex-1 border flex flex-col space-y-10 rounded-lg">
             <AnimationXaxis>
               <h2 className="text-3xl font-bold h-10 mt-5">
@@ -1326,7 +1326,7 @@ const Services = () => {
         </div>
       </section>
       <section className="flex justify-center items-center w-full">
-        <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-wrap justify-center items-stretch space-x-5 w-full container ">
+        <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-col md:flex-row flex-wrap justify-center items-stretch space-y-5 md:space-y-0 space-x-0 md:space-x-5 w-full container mx-auto">
           <div className="flex-1 border flex flex-col space-y-10 rounded-lg">
             <AnimationXaxis>
               <h2 className="text-3xl font-bold h-10 mt-5">

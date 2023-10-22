@@ -23,9 +23,33 @@ export const Team = () => {
         </AnimationXaxis>
         <div class="flex flex-wrap -m-2">
           <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <div class="absolute top-[30%] left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-            <div class="absolute top-[20%] right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-            <div class="absolute -bottom-8 left-[40%] w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+            <div class="absolute top-[30%] left-4 w-32 h-32 md:w-72 md:h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+            <div class="absolute top-[20%] right-4 w-32 h-32 md:w-72 md:h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+            <div class="absolute -bottom-8 left-[40%] w-32 h-32 md:w-72 md:h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+            <AnimationWrapper>
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 title-font font-medium">
+                  Mr Amir
+                  </h2>
+                  <p class="text-gray-500">Founder & CEO</p>
+                </div>
+              </div>
+            </AnimationWrapper>
+          </div>
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <AnimationWrapper>
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 title-font font-medium">
+                  Amir Naseem
+                  </h2>
+                  <p class="text-gray-500">Manager</p>
+                </div>
+              </div>
+            </AnimationWrapper>
+          </div>
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
             <AnimationWrapper>
               <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
                 <div class="flex-grow">
@@ -41,10 +65,8 @@ export const Team = () => {
             <AnimationWrapper>
               <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
                 <div class="flex-grow">
-                  <h2 class="text-gray-900 title-font font-medium">
-                    Henry Letham
-                  </h2>
-                  <p class="text-gray-500">CTO</p>
+                  <h2 class="text-gray-900 title-font font-medium">Farooq Jamal</h2>
+                  <p class="text-gray-500">Backend Developer</p>
                 </div>
               </div>
             </AnimationWrapper>
@@ -54,29 +76,7 @@ export const Team = () => {
               <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
-                    Oskar Blinde
-                  </h2>
-                  <p class="text-gray-500">Founder</p>
-                </div>
-              </div>
-            </AnimationWrapper>
-          </div>
-          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <AnimationWrapper>
-              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
-                <div class="flex-grow">
-                  <h2 class="text-gray-900 title-font font-medium">John Doe</h2>
-                  <p class="text-gray-500">DevOps</p>
-                </div>
-              </div>
-            </AnimationWrapper>
-          </div>
-          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <AnimationWrapper>
-              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
-                <div class="flex-grow">
-                  <h2 class="text-gray-900 title-font font-medium">
-                    Martin Eden
+                  Mr Zain
                   </h2>
                   <p class="text-gray-500">Software Engineer</p>
                 </div>
@@ -88,9 +88,9 @@ export const Team = () => {
               <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
-                    Boris Kitua
+                  Alper kamu
                   </h2>
-                  <p class="text-gray-500">UX Researcher</p>
+                  <p class="text-gray-500">DevOps</p>
                 </div>
               </div>
             </AnimationWrapper>
@@ -100,9 +100,9 @@ export const Team = () => {
               <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
-                    Atticus Finch
+                  Hanzala
                   </h2>
-                  <p class="text-gray-500">QA Engineer</p>
+                  <p class="text-gray-500">Graphics Designer</p>
                 </div>
               </div>
             </AnimationWrapper>
@@ -112,21 +112,9 @@ export const Team = () => {
               <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
-                    Alper Kamu
+                  Mr Muhammad
                   </h2>
                   <p class="text-gray-500">System</p>
-                </div>
-              </div>
-            </AnimationWrapper>
-          </div>
-          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <AnimationWrapper>
-              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
-                <div class="flex-grow">
-                  <h2 class="text-gray-900 title-font font-medium">
-                    Rodrigo Monchi
-                  </h2>
-                  <p class="text-gray-500">Product Manager</p>
                 </div>
               </div>
             </AnimationWrapper>

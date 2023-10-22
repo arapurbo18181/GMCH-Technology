@@ -7,8 +7,8 @@ export const Services = () => {
       id="services"
       className="text-gray-600 body-font text-center relative bg-gray-50"
     >
-      <div class="absolute top-10 left-20 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-      <div class="absolute top-20 right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+      <div class="absolute top-10 left-20 w-32 h-32 md:w-72 md:h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+      <div class="absolute top-20 right-4 w-32 h-32 md:w-72 md:h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
 
       <AnimationXaxis>
         <div class="flex flex-col text-center w-full space-y-5 relative">
@@ -26,7 +26,7 @@ export const Services = () => {
         </div>
       </AnimationXaxis>
       <div className="container px-5 pt-12 mx-auto text-left relative">
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <AnimationWrapper>
             <div className="pb-4 w-full rounded-lg shadow-lg bg-gray-50">
               <a className="block relative h-60 rounded overflow-hidden">

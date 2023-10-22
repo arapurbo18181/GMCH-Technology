@@ -12,7 +12,7 @@ export const WhyUs = () => {
   };
   return (
     <section className="flex justify-center items-center w-full">
-      <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-wrap justify-center items-stretch space-x-5 w-full container ">
+      <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-col md:flex-row flex-wrap justify-center items-stretch space-y-5 md:space-y-5 space-x-0 md:space-x-5 w-full container">
         <div className="flex-1 border flex flex-col space-y-10 rounded-lg">
           <AnimationXaxis>
             <h2 className="text-3xl font-bold h-10 mt-5">
@@ -59,7 +59,7 @@ export const WhyUs = () => {
             </div>
           </AnimationWrapper>
         </div>
-        <div className="flex-1 border rounded-lg overflow-hidden hover:scale-[1.03] transition-all duration-500 relative">
+        <div className="flex-1 border rounded-lg overflow-hidden md:hover:scale-[1.03] transition-all duration-500 relative">
           <AnimationWrapper>
             <div className={`${expanded ? "h-full" : "h-[400px]"} `}>
               <img src={Whyus} alt="" className="h-full w-full object-cover " />
