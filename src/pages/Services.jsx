@@ -57,7 +57,7 @@ const Services = () => {
             </AnimationWrapper>
           </div>
           <div className="flex-1 border rounded-lg overflow-hidden h-full">
-            {/* <AnimationWrapper> */}
+            <AnimationWrapper>
                 <Carousel
                   loop={true}
                   autoplay={true}
@@ -77,7 +77,7 @@ const Services = () => {
                         {" "}
                         Need Web Development service?{" "}
                       </h5>
-                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium">
+                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
                         Book a free consultation with us now
                       </p>
                       <Button className="bg-red-600 group-hover:scale-105">
@@ -97,7 +97,7 @@ const Services = () => {
                       <h5 className="text-white text-3xl font-bold">
                         Blogging Websites:
                       </h5>
-                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium">
+                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
                         Personal or professional blogs where individuals or
                         organizations publish articles and content.
                       </p>
@@ -118,7 +118,7 @@ const Services = () => {
                       <h5 className="text-white text-3xl font-bold">
                         Content Management Systems (CMS):
                       </h5>
-                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium">
+                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
                         These websites are built on platforms like WordPress,
                         Joomla, or Drupal, and they allow easy content
                         management and updates, often used for blogs, news
@@ -141,7 +141,7 @@ const Services = () => {
                       <h5 className="text-white text-3xl font-bold">
                         Eccomerce Website:
                       </h5>
-                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium">
+                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
                         These are online stores that allow businesses to sell
                         products or services to customers over the internet.
                         Examples include Amazon, eBay, and Shopify stores.
@@ -163,7 +163,7 @@ const Services = () => {
                       <h5 className="text-white text-3xl font-bold">
                         Educational Websites:
                       </h5>
-                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium">
+                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
                         These platforms provide online courses and educational
                         resources, such as Coursera or edX.
                       </p>
@@ -184,7 +184,7 @@ const Services = () => {
                       <h5 className="text-white text-3xl font-bold">
                         Forum and Community Websites:
                       </h5>
-                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium">
+                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
                         Examples include Reddit and Stack Overflow, which allow
                         users to engage in discussions and share knowledge.
                       </p>
@@ -205,7 +205,7 @@ const Services = () => {
                       <h5 className="text-white text-3xl font-bold">
                         News and Media Websites:
                       </h5>
-                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium">
+                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
                         These include sites like CNN, BBC, and The New York
                         Times, which deliver news content.
                       </p>
@@ -226,7 +226,7 @@ const Services = () => {
                       <h5 className="text-white text-3xl font-bold">
                         Portfolio Websites:
                       </h5>
-                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium">
+                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
                         These are often used by artists, designers, and creative
                         professionals to showcase their work.
                       </p>
@@ -247,7 +247,7 @@ const Services = () => {
                       <h5 className="text-white text-3xl font-bold">
                         Social Networking Sites:
                       </h5>
-                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium">
+                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
                         Websites like Facebook, Twitter, and LinkedIn fall under
                         this category, focusing on connecting people and
                         sharing content.
@@ -269,7 +269,7 @@ const Services = () => {
                       <h5 className="text-white text-3xl font-bold">
                         Web Applications:
                       </h5>
-                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium">
+                      <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
                         These are dynamic websites that offer various
                         functionalities and features, like online tools, project
                         management platforms, or collaboration tools.
@@ -280,7 +280,7 @@ const Services = () => {
                     </div>
                   </div>
                 </Carousel>
-            {/* </AnimationWrapper> */}
+            </AnimationWrapper>
           </div>
         </div>
       </section>
