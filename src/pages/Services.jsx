@@ -461,7 +461,66 @@ const Services = () => {
           <div className="flex-1 border flex flex-col space-y-10 rounded-lg">
             <AnimationXaxis>
               <h2 className="text-3xl font-bold h-10 mt-5">
-                <span className="">3. UI/UX</span>{" "}
+                <span className="">3. DevOps</span>{" "}
+                <span className="underline underline-offset-8 text-red-600">
+                  Service
+                </span>
+              </h2>
+            </AnimationXaxis>
+            <AnimationWrapper>
+              <div className="w-full flex flex-col justify-center items-start flex-grow px-5 py-4">
+                <p className="container py-2 leading-8 text-left tracking-wider bg-gray-50">
+                  We offer comprehensive web design and development services
+                  that are tailored to meet the unique needs of your business.
+                  Our team of experienced designers and developers work closely
+                  with you to create a website that not only looks great but
+                  also functions seamlessly. We focus on creating a
+                  user-friendly experience for your visitors, ensuring that your
+                  website is easy to navigate and optimized for conversions.At
+                  BrandCurb, we take a collaborative approach to every project,
+                  ensuring that we fully understand your business and your goals
+                  before we begin. Whether you're looking to launch a new
+                  website or redesign an existing one, we are here to help you
+                  achieve your online objectives. Contact us today to learn more
+                  about our web design and development services and how we can
+                  help your business succeed online.
+                </p>
+              </div>
+            </AnimationWrapper>
+          </div>
+          <div className="flex-1 border rounded-lg overflow-hidden h-full">
+            <AnimationWrapper>
+              <div className="relative">
+                <div className="h-full">
+                  <img
+                    src={WelcomeImage}
+                    alt="WelcomeImage"
+                    className="h-full w-full object-contain"
+                  />
+                </div>
+                <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
+                  <h5 className="text-white text-3xl font-bold">
+                    {" "}
+                    Need Web Development service?{" "}
+                  </h5>
+                  <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
+                    Book a free consultation with us now
+                  </p>
+                  <Button className="bg-red-600 group-hover:scale-105">
+                    Book a free consultaion
+                  </Button>
+                </div>
+              </div>
+            </AnimationWrapper>
+          </div>
+        </div>
+      </section>
+      <section className="flex justify-center items-center w-full">
+        <div className="text-gray-600 body-font text-center relative bg-gray-50 flex flex-wrap justify-center items-stretch space-x-5 w-full container ">
+          <div className="flex-1 border flex flex-col space-y-10 rounded-lg">
+            <AnimationXaxis>
+              <h2 className="text-3xl font-bold h-10 mt-5">
+                <span className="">4. UI/UX</span>{" "}
                 <span className="underline underline-offset-8 text-red-600">
                   Design
                 </span>
@@ -591,7 +650,7 @@ const Services = () => {
           <div className="flex-1 border flex flex-col space-y-10 rounded-lg">
             <AnimationXaxis>
               <h2 className="text-3xl font-bold h-10 mt-5">
-                <span className="">4. SEO</span>{" "}
+                <span className="">5. SEO</span>{" "}
                 <span className="underline underline-offset-8 text-red-600">
                   Service
                 </span>
@@ -787,7 +846,7 @@ const Services = () => {
           <div className="flex-1 border flex flex-col space-y-10 rounded-lg">
             <AnimationXaxis>
               <h2 className="text-3xl font-bold h-10 mt-5">
-                <span className="">5. Graphics</span>{" "}
+                <span className="">6. Graphics</span>{" "}
                 <span className="underline underline-offset-8 text-red-600">
                   Design
                 </span>
@@ -852,10 +911,13 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Layout Design: 
+                      Layout Design:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Arranging text, images, and other elements on a page or screen to create a visually appealing and coherent composition. Layout design is fundamental in print media, web design, and multimedia.
+                      Arranging text, images, and other elements on a page or
+                      screen to create a visually appealing and coherent
+                      composition. Layout design is fundamental in print media,
+                      web design, and multimedia.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -872,10 +934,12 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Logo Design: 
+                      Logo Design:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Creating unique, memorable logos that represent a company, brand, or product. Logos often serve as a visual identity and need to be instantly recognizable.
+                      Creating unique, memorable logos that represent a company,
+                      brand, or product. Logos often serve as a visual identity
+                      and need to be instantly recognizable.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -892,10 +956,12 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Color Theory: 
+                      Color Theory:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Understanding color psychology, color harmonies, and how to use color effectively to convey emotions, establish brand identity, and create visual impact.
+                      Understanding color psychology, color harmonies, and how
+                      to use color effectively to convey emotions, establish
+                      brand identity, and create visual impact.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -912,10 +978,13 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Typography:  
+                      Typography:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    The choice and arrangement of fonts and text elements to convey a specific message or style. Typography plays a crucial role in logo design, advertising, and print materials.
+                      The choice and arrangement of fonts and text elements to
+                      convey a specific message or style. Typography plays a
+                      crucial role in logo design, advertising, and
+                      print materials.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -932,10 +1001,12 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Illustration:  
+                      Illustration:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Creating custom illustrations, whether hand-drawn or digital, to enhance designs, convey concepts, or tell a visual story.
+                      Creating custom illustrations, whether hand-drawn or
+                      digital, to enhance designs, convey concepts, or
+                      tell a visual story.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -952,10 +1023,12 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Icon Design:   
+                      Icon Design:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Designing icons and symbols that represent specific functions or concepts, commonly used in user interfaces, websites, and mobile apps.
+                      Designing icons and symbols that represent specific
+                      functions or concepts, commonly used in user interfaces,
+                      websites, and mobile apps.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -972,10 +1045,11 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Print Design: 
+                      Print Design:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Designing materials for print, such as business cards, brochures, posters, flyers, magazines, and packaging.
+                      Designing materials for print, such as business cards,
+                      brochures, posters, flyers, magazines, and packaging.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -992,10 +1066,11 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Digital Art:  
+                      Digital Art:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Creating digital artwork for various purposes, including digital paintings, illustrations, and concept art.
+                      Creating digital artwork for various purposes, including
+                      digital paintings, illustrations, and concept art.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -1012,10 +1087,12 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Motion Graphics:   
+                      Motion Graphics:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Combining graphics and animation to create visual narratives or dynamic visuals used in videos, presentations, and advertising.
+                      Combining graphics and animation to create visual
+                      narratives or dynamic visuals used in videos,
+                      presentations, and advertising.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -1032,10 +1109,12 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Packaging Design:   
+                      Packaging Design:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Designing product packaging that not only protects the product but also attracts consumers with appealing visuals.
+                      Designing product packaging that not only protects the
+                      product but also attracts consumers with
+                      appealing visuals.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -1052,10 +1131,12 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Brand Identity:   
+                      Brand Identity:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Developing consistent visual elements like logos, colors, and typography to establish and maintain a brand's identity and recognition.
+                      Developing consistent visual elements like logos, colors,
+                      and typography to establish and maintain a brand's
+                      identity and recognition.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -1072,10 +1153,11 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Environmental Design:
+                      Environmental Design:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Creating visuals for physical spaces, such as signage, wayfinding, and interior design elements.
+                      Creating visuals for physical spaces, such as signage,
+                      wayfinding, and interior design elements.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -1092,10 +1174,12 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Social Media Graphics:   
+                      Social Media Graphics:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Designing visuals for social media posts, including images, banners, and profile graphics to engage and inform followers.
+                      Designing visuals for social media posts, including
+                      images, banners, and profile graphics to engage and
+                      inform followers.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -1112,7 +1196,7 @@ const Services = () => {
           <div className="flex-1 border flex flex-col space-y-10 rounded-lg">
             <AnimationXaxis>
               <h2 className="text-3xl font-bold h-10 mt-5">
-                <span className="">5. Digital</span>{" "}
+                <span className="">7. Digital</span>{" "}
                 <span className="underline underline-offset-8 text-red-600">
                   Marketing
                 </span>
@@ -1221,10 +1305,12 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Influencer Marketing: 
+                      Influencer Marketing:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Collaborating with influential individuals in your industry or niche to promote your products or services to their followers.
+                      Collaborating with influential individuals in your
+                      industry or niche to promote your products or services to
+                      their followers.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -1241,10 +1327,11 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Mobile Marketing: 
+                      Mobile Marketing:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Optimizing marketing strategies for mobile devices, including mobile-responsive websites and mobile apps.
+                      Optimizing marketing strategies for mobile devices,
+                      including mobile-responsive websites and mobile apps.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -1261,10 +1348,11 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Web Analytics: 
+                      Web Analytics:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Using tools to measure and analyze the effectiveness of digital marketing efforts, such as Google Analytics
+                      Using tools to measure and analyze the effectiveness of
+                      digital marketing efforts, such as Google Analytics
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -1281,7 +1369,7 @@ const Services = () => {
           <div className="flex-1 border flex flex-col space-y-10 rounded-lg">
             <AnimationXaxis>
               <h2 className="text-3xl font-bold h-10 mt-5">
-                <span className="">6. Digital</span>{" "}
+                <span className="">8. Digital</span>{" "}
                 <span className="underline underline-offset-8 text-red-600">
                   Print
                 </span>
@@ -1310,8 +1398,7 @@ const Services = () => {
           </div>
           <div className="flex-1 border rounded-lg overflow-hidden transition-all duration-500 relative">
             <AnimationWrapper>
-              
-            <Carousel
+              <Carousel
                 loop={true}
                 autoplay={true}
                 autoplayDelay={3000}
@@ -1327,10 +1414,11 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Document Printing: 
+                      Document Printing:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    This includes printing of documents, reports, manuals, and any text-based materials.
+                      This includes printing of documents, reports, manuals, and
+                      any text-based materials.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -1347,10 +1435,11 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Business Cards: 
+                      Business Cards:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Design and printing of personalized business cards for individuals and companies.
+                      Design and printing of personalized business cards for
+                      individuals and companies.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -1367,10 +1456,11 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Brochures and Flyers: 
+                      Brochures and Flyers:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Creating and printing marketing materials, promotional brochures, and informational flyers.
+                      Creating and printing marketing materials, promotional
+                      brochures, and informational flyers.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -1387,10 +1477,11 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Posters and Banners: 
+                      Posters and Banners:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Printing large-format posters and banners for events, advertising, or decorations.
+                      Printing large-format posters and banners for events,
+                      advertising, or decorations.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -1407,10 +1498,11 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Invitations: 
+                      Invitations:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Design and printing of custom invitations for events such as weddings, parties, and corporate functions.
+                      Design and printing of custom invitations for events such
+                      as weddings, parties, and corporate functions.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
@@ -1427,10 +1519,11 @@ const Services = () => {
                   </div>
                   <div className="absolute w-full h-full top-0 bg-gray-900 bg-opacity-60 flex flex-col justify-end items-start px-5 py-10 space-y-5 transition-all duration-300 group">
                     <h5 className="text-white text-3xl font-bold">
-                    Labels and Stickers: 
+                      Labels and Stickers:
                     </h5>
                     <p className="text-white w-full text-left tracking-wider border p-2 font-medium bg-gray-900 bg-opacity-50">
-                    Printing labels and stickers for branding, packaging, or labeling purposes.
+                      Printing labels and stickers for branding, packaging, or
+                      labeling purposes.
                     </p>
                     <Button className="bg-red-600 group-hover:scale-105">
                       Book a free consultaion
