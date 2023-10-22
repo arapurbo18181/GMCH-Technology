@@ -60,7 +60,7 @@ const Services = () => {
             {/* <AnimationWrapper> */}
                 <Carousel
                   loop={true}
-                  autoplay={false}
+                  autoplay={true}
                   autoplayDelay={3000}
                   className="rounded-xl h-full"
                 >
