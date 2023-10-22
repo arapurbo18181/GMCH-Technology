@@ -1,3 +1,4 @@
+import { Button } from "@material-tailwind/react";
 import { AnimationWrapper } from "../wrapper";
 import { AnimationXaxis } from "../wrapper/AnimationXaxis";
 
@@ -44,12 +45,12 @@ export const Contact = () => {
                   EMAIL
                 </h2>
                 <a className="text-indigo-500 leading-relaxed">
-                  example@email.com
+                admin@gmchtech.com
                 </a>
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                   PHONE
                 </h2>
-                <p className="leading-relaxed">123-456-7890</p>
+                <p className="leading-relaxed">+97433366874</p>
               </div>
             </div>
           </div>
@@ -95,9 +96,9 @@ export const Contact = () => {
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               ></textarea>
             </div>
-            <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            <Button className="">
               Send
-            </button>
+            </Button>
           </div>
         </div>
       </AnimationWrapper>

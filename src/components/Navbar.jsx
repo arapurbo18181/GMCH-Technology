@@ -297,7 +297,7 @@ export const Navbar = () => {
             >
               Services
             </Link>
-            <Link to={"/"} className="mr-5 hover:text-gray-800 border-b w-full">
+            <Link to={"/contact"} className="mr-5 hover:text-gray-800 border-b w-full">
               Contact
             </Link>
           </nav>
