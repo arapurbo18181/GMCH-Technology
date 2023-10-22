@@ -1,7 +1,7 @@
 // import Carousel from "better-react-carousel";
 import { Button, Carousel } from "@material-tailwind/react";
 import React, { useCallback, useState } from "react"; // requires a loader
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import FreeConsult from "../modal/FreeConsult";
@@ -29,7 +29,7 @@ export const About = () => {
   
   const welcome = "Our solutions are designed".split("");
   return (
-    <section className="text-gray-600 body-font relative flex justify-center items-center h-screen bg-gradient-to-tl from-[#811313] to-[#300101]">
+    <section className="text-gray-600 body-font relative flex justify-center items-center h-screen bg-gradient-to-tl from-[#181b90] to-[#0f1012]">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center flex-[3]">
           <AnimationWrapper>
@@ -46,7 +46,7 @@ export const About = () => {
           <div className="flex justify-center items-center space-x-5">
             <AnimationWrapper>
               <Link
-                to="services"
+                to="/services"
                 spy={true}
                 smooth={true}
                 duration={100}

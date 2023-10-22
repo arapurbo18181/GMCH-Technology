@@ -28,16 +28,11 @@ export const Team = () => {
             <div class="absolute -bottom-8 left-[40%] w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
             <AnimationWrapper>
               <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
-                <img
-                  alt="team"
-                  class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697587200&semt=sph"
-                />
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
-                    Holden Caulfield
+                    MD Abdul Zabber Islam Apurbo
                   </h2>
-                  <p class="text-gray-500">UI Designer</p>
+                  <p class="text-gray-500">Frontend Developer</p>
                 </div>
               </div>
             </AnimationWrapper>
@@ -45,11 +40,6 @@ export const Team = () => {
           <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
             <AnimationWrapper>
               <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
-                <img
-                  alt="team"
-                  class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697587200&semt=sph"
-                />
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
                     Henry Letham
@@ -62,11 +52,6 @@ export const Team = () => {
           <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
             <AnimationWrapper>
               <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
-                <img
-                  alt="team"
-                  class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697587200&semt=sph"
-                />
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
                     Oskar Blinde
@@ -79,11 +64,6 @@ export const Team = () => {
           <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
             <AnimationWrapper>
               <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
-                <img
-                  alt="team"
-                  class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697587200&semt=sph"
-                />
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">John Doe</h2>
                   <p class="text-gray-500">DevOps</p>
@@ -94,11 +74,6 @@ export const Team = () => {
           <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
             <AnimationWrapper>
               <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
-                <img
-                  alt="team"
-                  class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697587200&semt=sph"
-                />
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
                     Martin Eden
@@ -111,11 +86,6 @@ export const Team = () => {
           <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
             <AnimationWrapper>
               <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
-                <img
-                  alt="team"
-                  class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697587200&semt=sph"
-                />
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
                     Boris Kitua
@@ -128,11 +98,6 @@ export const Team = () => {
           <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
             <AnimationWrapper>
               <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
-                <img
-                  alt="team"
-                  class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697587200&semt=sph"
-                />
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
                     Atticus Finch
@@ -145,11 +110,6 @@ export const Team = () => {
           <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
             <AnimationWrapper>
               <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
-                <img
-                  alt="team"
-                  class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697587200&semt=sph"
-                />
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
                     Alper Kamu
@@ -162,11 +122,6 @@ export const Team = () => {
           <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
             <AnimationWrapper>
               <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg bg-white relative">
-                <img
-                  alt="team"
-                  class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                  src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697587200&semt=sph"
-                />
                 <div class="flex-grow">
                   <h2 class="text-gray-900 title-font font-medium">
                     Rodrigo Monchi
