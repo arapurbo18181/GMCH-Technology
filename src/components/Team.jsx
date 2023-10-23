@@ -14,11 +14,6 @@ export const Team = () => {
                 Team
               </span>
             </h2>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              laboriosam, natus incidunt cumque quas ipsam et corporis
-              repellendus fugit delectus!
-            </p>
           </div>
         </AnimationXaxis>
         <div class="flex flex-wrap -m-2">

@@ -18,11 +18,6 @@ export const Services = () => {
               Offers
             </span>
           </h2>
-          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            laboriosam, natus incidunt cumque quas ipsam et corporis repellendus
-            fugit delectus!
-          </p>
         </div>
       </AnimationXaxis>
       <div className="container px-5 pt-12 mx-auto text-left relative">
