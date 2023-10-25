@@ -4,7 +4,7 @@ import { AnimationXaxis } from "../wrapper/AnimationXaxis";
 
 export const Contact = () => {
   return (
-    <section className="text-gray-600 body-font relative text-center bg-gray-50">
+    <section id="contact" className="text-gray-600 body-font relative text-center bg-gray-50">
       <AnimationXaxis>
         <div class="flex flex-col text-center w-full space-y-5">
           <h2 className="text-3xl font-bold">

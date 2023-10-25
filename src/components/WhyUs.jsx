@@ -1,5 +1,6 @@
 import { Button } from "@material-tailwind/react";
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import Whyus from "../assets/whyus.jpg";
 import { AnimationWrapper } from "../wrapper";
 import { AnimationXaxis } from "../wrapper/AnimationXaxis";
@@ -69,9 +70,11 @@ export const WhyUs = () => {
                 Looking for services?
               </h5>
               <p className="text-white">Book a free consultation with us now</p>
-              <Button className="bg-red-600 group-hover:scale-105">
-                Book a free consultaion
-              </Button>
+              <Link to="contact">
+                <Button className="bg-red-600 group-hover:scale-105">
+                  Book a free consultaion
+                </Button>
+              </Link>
             </div>
           </AnimationWrapper>
         </div>
